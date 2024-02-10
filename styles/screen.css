@@ -1,38 +1,13 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #1e1f22;
     padding: 0 40px;
 }
 
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    list-style-type: none;
-    margin: 0;
-}
-
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
 h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 4em;
     letter-spacing: -2px;
 }
@@ -40,34 +15,137 @@ h1 {
 
 .cards-contain {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 160px, auto, 160px;
-    column-gap: 20px;
-    row-gap: 30px;
+    grid-template-columns: 300px 250px 250px 250px 250px;
+    grid-template-rows: 400px, 400px, 400px, 400px, 400px;
+    column-gap: 30px;
+    row-gap: 25px;
     align-items: center;
+    
 }
 
 .card-container-1 {
     grid-row: 1 / 3;
     grid-column: 1;
-    height: 300px;
-    width: 200px;
+    height: 525px;
+    width: 300px;
     border-radius: 5%;
+    background-color: #4d4d4d;
     align-content: center;
-    background-color: #4b6cff;
+}
+
+.card-container-1:hover {
+    background: #666666;
 }
 
 .card-container-2 {
-    height: 150px;
-    width: 100px;
+    height: 350px;
+    width: 250px;
     border-radius: 5%;
     align-items: center;
-    background-color: #4b6cff;
+    background-color: #4d4d4d;
+}
+
+.card-container-2:hover {
+    background: #666666;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Star {
+    
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.Name {
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 .Sun {
-    height: 150px;
-    width: 150px;
+    margin-top: 80px;
+    height: 250px;
+    width: 250px;
     background-color: #efbf3a;
     border-radius: 50%;
+}
+
+.Mercury {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    height: 70px;
+    width: 70px;
+    background-color: #c95f22;
+    border-radius: 50%;
+}
+
+.Venus {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 130px;
+    width: 130px;
+    background-color: #89603e;
+    border-radius: 50%;
+}
+
+.Earth {
+    margin-top: 40px;
+    height: 140px;
+    width: 140px;
+    background-color: #3375de;
+    border-radius: 50%;
+}
+
+.Mars {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 110px;
+    width: 110px;
+    background-color: #e16a37;
+    border-radius: 50%;
+}
+
+.Jupiter {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: #bc8c51;
+    border-radius: 50%;
+}
+
+.Saturn {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 185px;
+    width: 185px;
+    background-color: #ba9047;
+    border-radius: 50%;
+}
+
+.Uranus {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    height: 165px;
+    width: 165px;
+    background-color: #3ecd8f;
+    border-radius: 50%;
+}
+
+.Neptune {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 160px;
+    width: 160px;
+    background-color: #4d39e4;
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 1.2em;
 }
