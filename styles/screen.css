@@ -76,7 +76,7 @@ h1 {
 
 .Mercury {
     margin-top: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     height: 70px;
     width: 70px;
     background-color: #c95f22;
@@ -85,7 +85,7 @@ h1 {
 
 .Venus {
     margin-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     height: 130px;
     width: 130px;
     background-color: #89603e;
@@ -102,7 +102,7 @@ h1 {
 
 .Mars {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     height: 110px;
     width: 110px;
     background-color: #e16a37;
@@ -119,7 +119,7 @@ h1 {
 
 .Saturn {
     margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     height: 185px;
     width: 185px;
     background-color: #ba9047;
@@ -128,7 +128,7 @@ h1 {
 
 .Uranus {
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     height: 165px;
     width: 165px;
     background-color: #3ecd8f;
@@ -137,7 +137,7 @@ h1 {
 
 .Neptune {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     height: 160px;
     width: 160px;
     background-color: #4d39e4;
