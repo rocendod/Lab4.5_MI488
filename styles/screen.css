@@ -1,3 +1,12 @@
+:root {
+    --hovercolor: #666666;
+    --cardcolor: #4d4d4d;
+    --planetradius: 50%;
+
+}
+
+
+
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
@@ -29,12 +38,12 @@ h1 {
     height: 525px;
     width: 300px;
     border-radius: 5%;
-    background-color: #4d4d4d;
+    background-color: var(--cardcolor);
     align-content: center;
 }
 
 .card-container-1:hover {
-    background: #666666;
+    background: var(--hovercolor);
 }
 
 .card-container-2 {
@@ -42,11 +51,11 @@ h1 {
     width: 250px;
     border-radius: 5%;
     align-items: center;
-    background-color: #4d4d4d;
+    background-color: var(--cardcolor);
 }
 
 .card-container-2:hover {
-    background: #666666;
+    background: var(--hovercolor);
 }
 
 .card-content {
@@ -70,8 +79,8 @@ h1 {
     margin-top: 80px;
     height: 250px;
     width: 250px;
-    background-color: #efbf3a;
-    border-radius: 50%;
+    background: linear-gradient(45deg, #ef983a, #efbf3a);
+    border-radius: var(--planetradius);
 }
 
 .Mercury {
@@ -79,8 +88,8 @@ h1 {
     margin-bottom: 45px;
     height: 70px;
     width: 70px;
-    background-color: #c95f22;
-    border-radius: 50%;
+    background: linear-gradient(45deg, #c98c22, #dc611f);
+    border-radius: var(--planetradius);
 }
 
 .Venus {
@@ -88,8 +97,8 @@ h1 {
     margin-bottom: 25px;
     height: 130px;
     width: 130px;
-    background-color: #89603e;
-    border-radius: 50%;
+    background: linear-gradient(45deg, #89603e, #be8555) ;
+    border-radius: var(--planetradius);
 }
 
 .Earth {
@@ -97,7 +106,7 @@ h1 {
     height: 140px;
     width: 140px;
     background-color: #3375de;
-    border-radius: 50%;
+    border-radius: var(--planetradius);
 }
 
 .Mars {
@@ -106,7 +115,7 @@ h1 {
     height: 110px;
     width: 110px;
     background-color: #e16a37;
-    border-radius: 50%;
+    border-radius: var(--planetradius);
 }
 
 .Jupiter {
@@ -114,7 +123,7 @@ h1 {
     height: 200px;
     width: 200px;
     background-color: #bc8c51;
-    border-radius: 50%;
+    border-radius: var(--planetradius);
 }
 
 .Saturn {
@@ -123,7 +132,7 @@ h1 {
     height: 185px;
     width: 185px;
     background-color: #ba9047;
-    border-radius: 50%;
+    border-radius: var(--planetradius);
 }
 
 .Uranus {
@@ -132,7 +141,7 @@ h1 {
     height: 165px;
     width: 165px;
     background-color: #3ecd8f;
-    border-radius: 50%;
+    border-radius: var(--planetradius);
 }
 
 .Neptune {
@@ -140,8 +149,8 @@ h1 {
     margin-bottom: 45px;
     height: 160px;
     width: 160px;
-    background-color: #4d39e4;
-    border-radius: 50%;
+    background: linear-gradient(45deg,#4d39e4, #3989e4);
+    border-radius: var(--planetradius);
 }
 
 li {
